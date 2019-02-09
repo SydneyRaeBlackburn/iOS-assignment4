@@ -14,6 +14,15 @@
 		EB4BBE762182913200B00142 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4BBE742182913200B00142 /* LaunchScreen.storyboard */; };
 		EB4BBE812182913200B00142 /* Assignment4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4BBE802182913200B00142 /* Assignment4Tests.swift */; };
 		EB4BBE8C2182913200B00142 /* Assignment4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4BBE8B2182913200B00142 /* Assignment4UITests.swift */; };
+		EB4BBE9A2182920D00B00142 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4BBE992182920C00B00142 /* InitialViewController.swift */; };
+		EB4BBE9C2182995400B00142 /* StatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4BBE9B2182995400B00142 /* StatesViewController.swift */; };
+		EB4BBE9E218299FC00B00142 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4BBE9D218299FC00B00142 /* DetailViewController.swift */; };
+		EB4BBEA421829CAE00B00142 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4BBEA321829CAE00B00142 /* MapViewController.swift */; };
+		EB4BBEA92183D23900B00142 /* states.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB4BBEA82183D23900B00142 /* states.plist */; };
+		EB4BBEAD2186400800B00142 /* NameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4BBEAC2186400800B00142 /* NameViewController.swift */; };
+		EB4BBEAF2186401E00B00142 /* SportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4BBEAE2186401E00B00142 /* SportsViewController.swift */; };
+		EB4BBEB32186659000B00142 /* sports.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB4BBEB22186659000B00142 /* sports.plist */; };
+		EB4BBEB62186A17200B00142 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB4BBEB52186A17200B00142 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,17 @@
 		EB4BBE872182913200B00142 /* Assignment4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB4BBE8B2182913200B00142 /* Assignment4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment4UITests.swift; sourceTree = "<group>"; };
 		EB4BBE8D2182913200B00142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4BBE992182920C00B00142 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		EB4BBE9B2182995400B00142 /* StatesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatesViewController.swift; sourceTree = "<group>"; };
+		EB4BBE9D218299FC00B00142 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EB4BBEA321829CAE00B00142 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		EB4BBEA62183CF4700B00142 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		EB4BBEA72183CFE100B00142 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		EB4BBEA82183D23900B00142 /* states.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = states.plist; sourceTree = "<group>"; };
+		EB4BBEAC2186400800B00142 /* NameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameViewController.swift; sourceTree = "<group>"; };
+		EB4BBEAE2186401E00B00142 /* SportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsViewController.swift; sourceTree = "<group>"; };
+		EB4BBEB22186659000B00142 /* sports.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = sports.plist; sourceTree = "<group>"; };
+		EB4BBEB52186A17200B00142 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB4BBEB62186A17200B00142 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +102,7 @@
 				EB4BBE7F2182913200B00142 /* Assignment4Tests */,
 				EB4BBE8A2182913200B00142 /* Assignment4UITests */,
 				EB4BBE692182912C00B00142 /* Products */,
+				EB4BBEB42186A17100B00142 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +121,18 @@
 			children = (
 				EB4BBE6B2182912C00B00142 /* AppDelegate.swift */,
 				EB4BBE6D2182912C00B00142 /* ViewController.swift */,
+				EB4BBE992182920C00B00142 /* InitialViewController.swift */,
+				EB4BBE9B2182995400B00142 /* StatesViewController.swift */,
+				EB4BBE9D218299FC00B00142 /* DetailViewController.swift */,
+				EB4BBEAC2186400800B00142 /* NameViewController.swift */,
+				EB4BBEAE2186401E00B00142 /* SportsViewController.swift */,
+				EB4BBEA321829CAE00B00142 /* MapViewController.swift */,
 				EB4BBE6F2182912C00B00142 /* Main.storyboard */,
 				EB4BBE722182913200B00142 /* Assets.xcassets */,
 				EB4BBE742182913200B00142 /* LaunchScreen.storyboard */,
 				EB4BBE772182913200B00142 /* Info.plist */,
+				EB4BBEA82183D23900B00142 /* states.plist */,
+				EB4BBEB22186659000B00142 /* sports.plist */,
 			);
 			path = Assignment4;
 			sourceTree = "<group>";
@@ -123,6 +153,14 @@
 				EB4BBE8D2182913200B00142 /* Info.plist */,
 			);
 			path = Assignment4UITests;
+			sourceTree = "<group>";
+		};
+		EB4BBEB42186A17100B00142 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB4BBEB52186A17200B00142 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +269,8 @@
 			files = (
 				EB4BBE762182913200B00142 /* LaunchScreen.storyboard in Resources */,
 				EB4BBE732182913200B00142 /* Assets.xcassets in Resources */,
+				EB4BBEA92183D23900B00142 /* states.plist in Resources */,
+				EB4BBEB32186659000B00142 /* sports.plist in Resources */,
 				EB4BBE712182912C00B00142 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +296,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB4BBE9C2182995400B00142 /* StatesViewController.swift in Sources */,
+				EB4BBE9A2182920D00B00142 /* InitialViewController.swift in Sources */,
+				EB4BBEAD2186400800B00142 /* NameViewController.swift in Sources */,
+				EB4BBE9E218299FC00B00142 /* DetailViewController.swift in Sources */,
 				EB4BBE6E2182912C00B00142 /* ViewController.swift in Sources */,
 				EB4BBE6C2182912C00B00142 /* AppDelegate.swift in Sources */,
+				EB4BBEA421829CAE00B00142 /* MapViewController.swift in Sources */,
+				EB4BBEAF2186401E00B00142 /* SportsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +343,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				EB4BBE702182912C00B00142 /* Base */,
+				EB4BBEA62183CF4700B00142 /* en */,
+				EB4BBEA72183CFE100B00142 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -316,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -377,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

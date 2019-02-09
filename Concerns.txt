@@ -1,0 +1,5 @@
+When running my app, the tab bar names didn't change. I'm not sure if that will happen with you but I wasn't sure how to fix it and I didn't want to put in a new tab bar controller. Also, when opening up the project sometimes the tab bar doesn't reflect any change I made including position, title, and icon. So I changed the names programmatically but they only appear once you click on the tab.
+
+Sometimes the navigation goes away but when I clicked the connection from the navigation controller to the initial view it pops up again. I don't know why.
+
+I think these problems just have to do with my computer but I'm just letting you know.

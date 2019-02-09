@@ -1,14 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   states.plist
-   Assignment4
-
-   Created by Sydney Blackburn on 10/26/18.
-   Copyright (c) 2018 Sydney Blackburn. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<dict>
+	<key>Alabama</key>
+	<array>
+		<string>AL</string>
+		<string>Montgomery</string>
+		<string>December 14, 1819</string>
+	</array>
+	<key>Alaska</key>
+	<array>
+		<string>AK</string>
+		<string>Juneau</string>
+		<string>January 3, 1959</string>
+	</array>
+	<key>Arizona</key>
+	<array>
+		<string>AZ</string>
+		<string>Phoenix</string>
+		<string>February 14, 1912</string>
+	</array>
+	<key>Arkansas</key>
+	<array>
+		<string>AR</string>
+		<string>Little Rock</string>
+		<string>June 15, 1836</string>
+	</array>
+	<key>California</key>
+	<array>
+		<string>CA</string>
+		<string>Sacramento</string>
+		<string>September 9, 1850</string>
+	</array>
+	<key>Colorado</key>
+	<array>
+		<string>CO</string>
+		<string>Denver</string>
+		<string>August 1, 1876</string>
+	</array>
+	<key>Connecticut</key>
+	<array>
+		<string>CT</string>
+		<string>Hartford</string>
+		<string>January 9, 1788</string>
+	</array>
+	<key>Delaware</key>
+	<array>
+		<string>DE</string>
+		<string>Dover</string>
+		<string>December 7, 1787</string>
+	</array>
+	<key>Florida</key>
+	<array>
+		<string>FL</string>
+		<string>Tallahassee</string>
+		<string>March 3, 1845</string>
+	</array>
+	<key>Georgia</key>
+	<array>
+		<string>GA</string>
+		<string>Atlanta</string>
+		<string>January 2, 1788</string>
+	</array>
+</dict>
 </plist>
