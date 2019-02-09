@@ -1,0 +1,27 @@
+
+/* Class = "UIButton"; normalTitle = "Tab"; ObjectID = "2wc-mG-LXc"; */
+"2wc-mG-LXc.normalTitle" = "Tab";
+
+/* Class = "UIViewController"; title = "Sports"; ObjectID = "BYh-EF-rM1"; */
+"BYh-EF-rM1.title" = "Sports";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "HMC-FB-URq"; */
+"HMC-FB-URq.text" = "Password";
+
+/* Class = "UIViewController"; title = "Tab"; ObjectID = "PAF-H5-XXp"; */
+"PAF-H5-XXp.title" = "Tab";
+
+/* Class = "UITabBarItem"; title = "Item 1"; ObjectID = "Xha-zq-dI3"; */
+"Xha-zq-dI3.title" = "Item 1";
+
+/* Class = "UIButton"; normalTitle = "States"; ObjectID = "dGK-aW-y9a"; */
+"dGK-aW-y9a.normalTitle" = "States";
+
+/* Class = "UITabBarItem"; title = "Item 2"; ObjectID = "h1z-O2-LM9"; */
+"h1z-O2-LM9.title" = "Item 2";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "lbA-5j-LHo"; */
+"lbA-5j-LHo.text" = "Name";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "qG6-k9-5ql"; */
+"qG6-k9-5ql.title" = "Item";
